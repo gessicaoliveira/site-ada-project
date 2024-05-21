@@ -1,7 +1,11 @@
-body{
+* {
+  box-sizing: none;
+}
+
+body {
   text-align: center;
   font-family: Open sans, sans-serif;
-  background-color: #E0A1FF !important;
+  background-color: #e0a1ff !important;
   color: #ffffff;
   margin: 0px 0px 30px 0px;
 }
@@ -10,14 +14,14 @@ body{
   padding: 30px 60px;
 }
 
-.nav-bar {  
-  background-color:#FF7AA2;  
-  font-family: Open sans, sans-serif;      
+.nav-bar {
+  background-color: #ff7aa2;
+  font-family: Open sans, sans-serif;
 }
 
 .nav-bar a {
   font-size: 20px;
-  color: white;  
+  color: white;
 }
 
 .nav {
@@ -33,42 +37,44 @@ body{
 }
 
 .container {
-  margin-top: 40px; 
+  margin-top: 40px;
   margin-bottom: 40px;
 }
 
-h1{
+h1 {
   font-size: 60px;
   font-weight: 300;
 }
 
 h2 {
-  color: #2A0074;
+  color: #2a0074;
   font-size: 40px;
 }
 
 h3 {
   font-size: 22px;
   font-style: italic;
-  color: #2A0074;
+  color: #2a0074;
 }
 
 h5 {
   font-style: italic;
-  color: #2A0074;
+  color: #2a0074;
 }
 
-p{
+p {
   font-size: 20px;
   line-height: 1.5;
 }
 
-img{
+img {
   width: 100%;
 }
 
 .card {
-  padding: 20px;  
+  padding: 20px;
+  display: flex;
+  align-items: center;
 }
 
 .card-title {
@@ -82,7 +88,7 @@ ul {
 }
 
 a.highlight:hover {
-  color:#FF7AA2;
+  color: #ff7aa2;
 }
 
 label {
@@ -91,6 +97,10 @@ label {
 
 input {
   border-radius: 5px;
+}
+
+.btn {
+  margin-top: 10px;
 }
 
 .footer {
